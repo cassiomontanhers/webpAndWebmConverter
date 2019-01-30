@@ -11,9 +11,9 @@ const hbjs = require('handbrake-js');
 var webp = require('webp-converter');
 var fs = require( 'fs' );
 
-var imgDirectoryDestination = "finalImgs";
-var videoDirectoryDestination = "finalVideos";
-var directoryOrigin = "originFiles";
+var imgDirectoryDestination = "C:/Users/cassi/Desktop";
+var videoDirectoryDestination = "C:/Users/cassi/Desktop";
+var directoryOrigin = "C:/Users/cassi/Desktop";
 
 fs.readdir( directoryOrigin, function( err, files ) {
   files.forEach( function( file, index ) {
